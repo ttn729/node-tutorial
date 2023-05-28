@@ -33,3 +33,24 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
 })
 
 console.log('starting next task');
+
+
+
+// setTimeout and setInterval are asynchronous
+
+// console.log('first');
+
+// setTimeout(() => {
+//     console.log('second')
+// }, 0)
+
+// console.log('third');
+
+
+// console.log('first');
+
+// setInterval(() => {
+//     console.log('second')
+// }, 2000)
+
+// console.log('third');
